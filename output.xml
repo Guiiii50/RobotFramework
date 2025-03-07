@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-05T15:15:01.860278" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-07T16:25:22.018708" rpa="false" schemaversion="5">
 <suite id="s1" name="Test1" source="c:\Users\Administrateur\Desktop\RobotFramework\tests\test1.robot">
-<test id="s1-t1" name="Test 7" line="45">
+<test id="s1-t1" name="Test 8" line="60">
 <kw name="Given I am on the homepage" owner="homepage_page" type="SETUP">
 <kw name="Open Browser" owner="Browser">
-<msg time="2025-03-05T15:15:02.010691" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg time="2025-03-05T15:15:02.013101" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Administrateur\\Desktop\\RobotFramework\\browser\\traces\\temp\\c060aa35-7562-4e68-b821-21408c50f8f3"}</msg>
-<msg time="2025-03-05T15:15:02.028788" level="INFO">Starting Browser process C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 61906</msg>
-<msg time="2025-03-05T15:15:02.029063" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Administrateur\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '61906']</msg>
-<msg time="2025-03-05T15:15:02.721215" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Administrateur\\Desktop\\RobotFramework\\browser\\traces\\temp\\c060aa35-7562-4e68-b821-21408c50f8f3"}</msg>
-<msg time="2025-03-05T15:15:02.722412" level="INFO">{
+<msg time="2025-03-07T16:25:22.185869" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-03-07T16:25:22.187115" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Administrateur\\Desktop\\RobotFramework\\browser\\traces\\temp\\69b7d018-88ff-45ae-912e-e14636be9b08"}</msg>
+<msg time="2025-03-07T16:25:22.203343" level="INFO">Starting Browser process C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 64135</msg>
+<msg time="2025-03-07T16:25:22.203577" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Administrateur\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '64135']</msg>
+<msg time="2025-03-07T16:25:22.891879" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Administrateur\\Desktop\\RobotFramework\\browser\\traces\\temp\\69b7d018-88ff-45ae-912e-e14636be9b08"}</msg>
+<msg time="2025-03-07T16:25:22.893375" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": true,
   "forcedColors": "none",
@@ -23,17 +23,17 @@
     "height": 720
   }
 }</msg>
-<msg time="2025-03-05T15:15:02.741051" level="INFO">Successfully created context. </msg>
-<msg time="2025-03-05T15:15:02.741267" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
-<msg time="2025-03-05T15:15:04.346732" level="INFO">Successfully initialized new page object and opened url: https://www.decathlon.fr</msg>
+<msg time="2025-03-07T16:25:22.912005" level="INFO">Successfully created context. </msg>
+<msg time="2025-03-07T16:25:22.912328" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2025-03-07T16:25:26.233951" level="INFO">Successfully initialized new page object and opened url: https://www.decathlon.fr</msg>
 <arg>https://www.decathlon.fr</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
-<status status="PASS" start="2025-03-05T15:15:02.010201" elapsed="2.336985"/>
+<status status="PASS" start="2025-03-07T16:25:22.185095" elapsed="4.049200"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2025-03-05T15:15:04.405278" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
+<msg time="2025-03-07T16:25:26.293794" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
 <arg>id=didomi-notice-agree-button</arg>
 <arg>contains</arg>
 <arg>visible</arg>
@@ -41,18 +41,18 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:04.347458" elapsed="0.058098"/>
+<status status="PASS" start="2025-03-07T16:25:26.234552" elapsed="0.059639"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:15:04.406436" level="INFO">Clicks the element 'id=didomi-notice-agree-button'.</msg>
+<msg time="2025-03-07T16:25:26.295240" level="INFO">Clicks the element 'id=didomi-notice-agree-button'.</msg>
 <arg>id=didomi-notice-agree-button</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:04.405795" elapsed="0.185057"/>
+<status status="PASS" start="2025-03-07T16:25:26.294578" elapsed="0.162950"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2025-03-05T15:15:04.849137" level="INFO">States are: ['detached']</msg>
+<msg time="2025-03-07T16:25:26.715808" level="INFO">States are: ['detached']</msg>
 <arg>id=didomi-notice-agree-button</arg>
 <arg>contains</arg>
 <arg>detached</arg>
@@ -60,127 +60,235 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:04.591247" elapsed="0.258130"/>
+<status status="PASS" start="2025-03-07T16:25:26.457993" elapsed="0.258041"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:15:02.009550" elapsed="2.839991"/>
+<status status="PASS" start="2025-03-07T16:25:22.184061" elapsed="4.532120"/>
 </kw>
-<kw name="When I search for &quot;8549582&quot;" owner="searchbar_element" source_name="I search for &quot;${search}&quot;">
+<kw name="When I search for &quot;ballon&quot;" owner="searchbar_element" source_name="I search for &quot;${search}&quot;">
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-03-05T15:15:04.850887" level="INFO">Fills the text '8549582' in the given field.</msg>
+<msg time="2025-03-07T16:25:26.718682" level="INFO">Fills the text 'ballon' in the given field.</msg>
 <arg>xpath=//input[@type='search']</arg>
 <arg>${search}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:04.850399" elapsed="0.072163"/>
+<status status="PASS" start="2025-03-07T16:25:26.717657" elapsed="0.073377"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:15:04.923535" level="INFO">Clicks the element 'css=#search-bar button[type='submit']'.</msg>
+<msg time="2025-03-07T16:25:26.791903" level="INFO">Clicks the element 'css=#search-bar button[type='submit']'.</msg>
 <arg>css=#search-bar button[type='submit']</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:04.922857" elapsed="1.043256"/>
+<status status="PASS" start="2025-03-07T16:25:26.791310" elapsed="0.828670"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:15:04.849955" elapsed="1.116412"/>
+<status status="PASS" start="2025-03-07T16:25:26.716882" elapsed="0.903571"/>
 </kw>
-<kw name="And I add the product to the cart" owner="product_page">
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:15:05.967992" level="INFO">Clicks the element 'css=.conversion-zone__purchase-cta'.</msg>
-<arg>css=.conversion-zone__purchase-cta</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:05.967307" elapsed="0.511948"/>
-</kw>
-<status status="PASS" start="2025-03-05T15:15:05.966792" elapsed="0.512702"/>
-</kw>
-<kw name="Then the product is added to the cart successfully" owner="product_page">
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-03-05T15:15:07.728147" level="INFO">Waited for Element with selector css=#popin-cross-sell [slot='title'] at state visible</msg>
-<arg>css=#popin-cross-sell [slot='title']</arg>
+<kw name="Then I am on the search page for &quot;ballon&quot;" owner="search_page" source_name="I am on the search page for &quot;${search}&quot;">
+<kw name="Get Element States" owner="Browser">
+<msg time="2025-03-07T16:25:28.297629" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
+<arg>id=search-suggestions-banner</arg>
+<arg>contains</arg>
 <arg>visible</arg>
-<arg>10s</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-03-05T15:15:06.481283" elapsed="1.247260"/>
+<doc>Get the active states from the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-07T16:25:27.621853" elapsed="0.676665"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:15:06.480554" elapsed="1.248217"/>
-</kw>
-<kw name="When I close the cart popin" owner="product_page">
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:15:07.730367" level="INFO">Clicks the element 'css=.ecomm-sidepanel__close-btn'.</msg>
-<arg>css=.ecomm-sidepanel__close-btn</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:07.729773" elapsed="0.622382"/>
-</kw>
-<status status="PASS" start="2025-03-05T15:15:07.729275" elapsed="0.623122"/>
-</kw>
-<kw name="When I search for &quot;8336573&quot;" owner="searchbar_element" source_name="I search for &quot;${search}&quot;">
-<kw name="Fill Text" owner="Browser">
-<msg time="2025-03-05T15:15:08.354631" level="INFO">Fills the text '8336573' in the given field.</msg>
-<arg>xpath=//input[@type='search']</arg>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-07T16:25:28.639184" level="INFO">Text: 'ballon'</msg>
+<arg>css=.searchText</arg>
+<arg>contains</arg>
 <arg>${search}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:08.353653" elapsed="0.014863"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.298786" elapsed="0.340631"/>
 </kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:15:08.369495" level="INFO">Clicks the element 'css=#search-bar button[type='submit']'.</msg>
-<arg>css=#search-bar button[type='submit']</arg>
+<status status="PASS" start="2025-03-07T16:25:27.621097" elapsed="1.018451"/>
+</kw>
+<kw name="And The sellers are displayed correctly" owner="search_page">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-03-07T16:25:28.641135" level="INFO">@{list} = [ Decathlon | Balles de Sport | Sport &amp; Go | Butyjana | Sportano EU ]</msg>
+<var>@{list}</var>
+<arg>Decathlon</arg>
+<arg>Balles de Sport</arg>
+<arg>Sport &amp; Go</arg>
+<arg>Butyjana</arg>
+<arg>Sportano EU</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.640672" elapsed="0.000586"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<msg time="2025-03-07T16:25:28.641744" level="INFO">Length is 5.</msg>
+<msg time="2025-03-07T16:25:28.641891" level="INFO">${count} = 5</msg>
+<var>${count}</var>
+<arg>${list}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.641451" elapsed="0.000530"/>
+</kw>
+<for flavor="IN RANGE">
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-07T16:25:28.643407" level="INFO">1</msg>
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.643111" elapsed="0.000463"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2025-03-07T16:25:28.644315" level="INFO">${seller} = Decathlon</msg>
+<var>${seller}</var>
+<arg>${list}</arg>
+<arg>${index - 1}</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.643747" elapsed="0.000706"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-07T16:25:28.795731" level="INFO">Text: 'Decathlon\n308'</msg>
+<arg>xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a)[${index}]</arg>
+<arg>contains</arg>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:08.368892" elapsed="1.189038"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.644595" elapsed="0.151525"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:15:08.352954" elapsed="1.205169"/>
+<var name="${index}">1</var>
+<status status="PASS" start="2025-03-07T16:25:28.642778" elapsed="0.153805"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-07T16:25:28.798083" level="INFO">2</msg>
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.797519" elapsed="0.000793"/>
 </kw>
-<kw name="And I add the product to the cart" owner="product_page">
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:15:09.559975" level="INFO">Clicks the element 'css=.conversion-zone__purchase-cta'.</msg>
-<arg>css=.conversion-zone__purchase-cta</arg>
+<kw name="Get From List" owner="Collections">
+<msg time="2025-03-07T16:25:28.799525" level="INFO">${seller} = Balles de Sport</msg>
+<var>${seller}</var>
+<arg>${list}</arg>
+<arg>${index - 1}</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.798601" elapsed="0.001097"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-07T16:25:28.875851" level="INFO">Text: 'Balles de Sport\n446'</msg>
+<arg>xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a)[${index}]</arg>
+<arg>contains</arg>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:09.559295" elapsed="1.058742"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.799985" elapsed="0.076130"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:15:09.558651" elapsed="1.059599"/>
+<var name="${index}">2</var>
+<status status="PASS" start="2025-03-07T16:25:28.796924" elapsed="0.079309"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-07T16:25:28.877055" level="INFO">3</msg>
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.876728" elapsed="0.000463"/>
 </kw>
-<kw name="Then the product is added to the cart successfully" owner="product_page">
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-03-05T15:15:11.375370" level="INFO">Waited for Element with selector css=#popin-cross-sell [slot='title'] at state visible</msg>
-<arg>css=#popin-cross-sell [slot='title']</arg>
-<arg>visible</arg>
-<arg>10s</arg>
+<kw name="Get From List" owner="Collections">
+<msg time="2025-03-07T16:25:28.877992" level="INFO">${seller} = Sport &amp; Go</msg>
+<var>${seller}</var>
+<arg>${list}</arg>
+<arg>${index - 1}</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.877372" elapsed="0.000770"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-07T16:25:28.905210" level="INFO">Text: 'Sport &amp; Go\n276'</msg>
+<arg>xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a)[${index}]</arg>
+<arg>contains</arg>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-03-05T15:15:10.619501" elapsed="0.756204"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.878365" elapsed="0.027111"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:15:10.618896" elapsed="0.756948"/>
+<var name="${index}">3</var>
+<status status="PASS" start="2025-03-07T16:25:28.876396" elapsed="0.029189"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-07T16:25:28.906461" level="INFO">4</msg>
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.906075" elapsed="0.000590"/>
 </kw>
-<kw name="When I close the cart popin" owner="product_page">
-<kw name="Click" owner="Browser">
-<msg time="2025-03-05T15:15:11.377461" level="INFO">Clicks the element 'css=.ecomm-sidepanel__close-btn'.</msg>
-<arg>css=.ecomm-sidepanel__close-btn</arg>
+<kw name="Get From List" owner="Collections">
+<msg time="2025-03-07T16:25:28.907532" level="INFO">${seller} = Butyjana</msg>
+<var>${seller}</var>
+<arg>${list}</arg>
+<arg>${index - 1}</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.906868" elapsed="0.000797"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-07T16:25:28.929038" level="INFO">Text: 'Butyjana\n188'</msg>
+<arg>xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a)[${index}]</arg>
+<arg>contains</arg>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
 <tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-05T15:15:11.376868" elapsed="0.473879"/>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.907861" elapsed="0.021765"/>
 </kw>
-<status status="PASS" start="2025-03-05T15:15:11.376356" elapsed="0.474609"/>
+<var name="${index}">4</var>
+<status status="PASS" start="2025-03-07T16:25:28.905739" elapsed="0.024073"/>
+</iter>
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-03-07T16:25:28.930747" level="INFO">5</msg>
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.930361" elapsed="0.000823"/>
 </kw>
-<msg time="2025-03-05T15:15:11.854669" level="INFO">Set timeout to: 10000</msg>
-<msg time="2025-03-05T15:15:11.866640" level="INFO">Switching context to context=cf91ef02-32c6-455a-80db-62d8652ef060 in CURRENT</msg>
-<msg time="2025-03-05T15:15:11.873123" level="INFO">Successfully changed active context: context=cf91ef02-32c6-455a-80db-62d8652ef060</msg>
-<msg time="2025-03-05T15:15:11.922325" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2025-03-05T15:15:02.008763" elapsed="9.843008"/>
+<kw name="Get From List" owner="Collections">
+<msg time="2025-03-07T16:25:28.932171" level="INFO">${seller} = Sportano EU</msg>
+<var>${seller}</var>
+<arg>${list}</arg>
+<arg>${index - 1}</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.931526" elapsed="0.000861"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-07T16:25:28.944248" level="INFO">Text: 'Sportano EU\n146'</msg>
+<arg>xpath=(//summary[.//*[contains(text(), 'Filtrer par vendeurs')]]/following-sibling::div//a)[${index}]</arg>
+<arg>contains</arg>
+<arg>${seller}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-07T16:25:28.932538" elapsed="0.011943"/>
+</kw>
+<var name="${index}">5</var>
+<status status="PASS" start="2025-03-07T16:25:28.930001" elapsed="0.014584"/>
+</iter>
+<var>${index}</var>
+<value>1</value>
+<value>${count + 1}</value>
+<status status="PASS" start="2025-03-07T16:25:28.642108" elapsed="0.302564"/>
+</for>
+<status status="PASS" start="2025-03-07T16:25:28.640045" elapsed="0.304749"/>
+</kw>
+<msg time="2025-03-07T16:25:28.948774" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-03-07T16:25:28.972777" level="INFO">Switching context to context=7b29100f-9966-4197-915e-d1252a08c685 in CURRENT</msg>
+<msg time="2025-03-07T16:25:28.981911" level="INFO">Successfully changed active context: context=7b29100f-9966-4197-915e-d1252a08c685</msg>
+<msg time="2025-03-07T16:25:29.046572" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-03-07T16:25:22.183022" elapsed="6.762174"/>
 </test>
-<status status="PASS" start="2025-03-05T15:15:01.863466" elapsed="10.060145"/>
+<status status="PASS" start="2025-03-07T16:25:22.021655" elapsed="7.026832"/>
 </suite>
 <statistics>
 <total>
@@ -193,6 +301,7 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2025-03-05T15:15:02.010691" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-03-07T16:25:22.176884" level="ERROR">Error in file 'c:\Users\Administrateur\Desktop\RobotFramework\tests\test1.robot' on line 11: Variable file '..\data\products.py' does not exist.</msg>
+<msg time="2025-03-07T16:25:22.185869" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
 </errors>
 </robot>
